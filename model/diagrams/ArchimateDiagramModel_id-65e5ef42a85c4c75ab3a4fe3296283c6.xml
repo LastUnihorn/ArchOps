@@ -1,4 +1,35 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Default View"
-    id="id-65e5ef42a85c4c75ab3a4fe3296283c6"/>
+    id="id-65e5ef42a85c4c75ab3a4fe3296283c6">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-807e139f2e9b45b1be34faaf4e96b5b2"
+      targetConnections="id-9cc158e709404ee2a4487d30478259ac"
+      textAlignment="1"
+      content="Приветствуем участников соревнований!">
+    <bounds
+        x="300"
+        y="180"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b95e1857683a412ba63ea42c7a974bc1"
+      type="1">
+    <sourceConnections
+        id="id-9cc158e709404ee2a4487d30478259ac"
+        source="id-b95e1857683a412ba63ea42c7a974bc1"
+        target="id-807e139f2e9b45b1be34faaf4e96b5b2"/>
+    <bounds
+        x="145"
+        y="276"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_id-37c68da8b9e74675bdefcd5ac027fa3d.xml#id-37c68da8b9e74675bdefcd5ac027fa3d"/>
+  </children>
+</archimate:ArchimateDiagramModel>
