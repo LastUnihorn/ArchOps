@@ -2,4 +2,14 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ArchOps Model"
     id="id-3f7466c20af1496ebe0da61810827397"
-    version="5.0.0"/>
+    version="5.0.0">
+  <profiles
+      name="Микросервисы"
+      id="id-f6ef675f67874bffa26f61d3d6cadb2e"
+      imagePath="images/_IPEoYJB6Ee-bBoWhOGPVzw.jpg"
+      conceptType="Node"/>
+  <profiles
+      name="Монолит"
+      id="id-5a84fbb5b55f4847bde2a5da474a6fe0"
+      conceptType="Node"/>
+</archimate:ArchimateModel>

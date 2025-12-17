@@ -9,9 +9,21 @@
       targetConnections="id-80cf69e20ec8421d8fa379fa115951f8">
     <bounds
         x="283"
-        y="24"
-        width="120"
-        height="55"/>
+        y="12"
+        width="150"
+        height="67"/>
+    <children
+        xsi:type="archimate:DiagramModelReference"
+        id="id-0e87fe446e35438d8bc6dca961f751eb">
+      <bounds
+          x="12"
+          y="24"
+          width="120"
+          height="43"/>
+      <referencedModel
+          xsi:type="archimate:ArchimateDiagramModel"
+          href="ArchimateDiagramModel_id-09b3c67813f24ddc8d273f2ec6e1be8b.xml#id-09b3c67813f24ddc8d273f2ec6e1be8b"/>
+    </children>
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-17e197222e7a467796db928f5e2dffd5.xml#id-17e197222e7a467796db928f5e2dffd5"/>
