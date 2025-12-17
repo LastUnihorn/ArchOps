@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Отсутствует предмет проектирования"
+    id="id-b0bc0376e6fd40c3bc4e2eef7a1e3d0b">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c8e9c577bbba42bfa6a7669f6dd8057c.xml#id-c8e9c577bbba42bfa6a7669f6dd8057c"/>
+  <target
+      xsi:type="archimate:BusinessEvent"
+      href="BusinessEvent_id-b42b9c92e9534479baf52827a153cc15.xml#id-b42b9c92e9534479baf52827a153cc15"/>
+</archimate:FlowRelationship>

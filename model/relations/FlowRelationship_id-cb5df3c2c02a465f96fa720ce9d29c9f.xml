@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Таймаут"
+    id="id-cb5df3c2c02a465f96fa720ce9d29c9f">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-cca63f927ce94dc0b1ccb07c5c1a0b34.xml#id-cca63f927ce94dc0b1ccb07c5c1a0b34"/>
+  <target
+      xsi:type="archimate:BusinessEvent"
+      href="BusinessEvent_id-b42b9c92e9534479baf52827a153cc15.xml#id-b42b9c92e9534479baf52827a153cc15"/>
+</archimate:FlowRelationship>

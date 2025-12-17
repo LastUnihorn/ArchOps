@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Получен апрув"
+    id="id-6cbf707e9c6c4bfe86829499bf676ea3">
+  <source
+      xsi:type="archimate:Junction"
+      href="Junction_id-fdb08e6e46804386925272865af5aa28.xml#id-fdb08e6e46804386925272865af5aa28"/>
+  <target
+      xsi:type="archimate:BusinessEvent"
+      href="BusinessEvent_id-096332029470493483d8acd2d03f423e.xml#id-096332029470493483d8acd2d03f423e"/>
+</archimate:FlowRelationship>

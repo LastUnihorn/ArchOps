@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Низкий приоритет"
+    id="id-e97c7d403ede491fa88a06746099727c">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c7c01dffdac6452683470a49eb099fdb.xml#id-c7c01dffdac6452683470a49eb099fdb"/>
+  <target
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-c8e9c577bbba42bfa6a7669f6dd8057c.xml#id-c8e9c577bbba42bfa6a7669f6dd8057c"/>
+</archimate:FlowRelationship>
