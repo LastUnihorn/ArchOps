@@ -1,0 +1,8 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="POST"
+    id="id-3d93f316d56d425987696349729ae83a"
+    documentation="тут может быть тело запроса">
+  <properties
+      key="REST"/>
+</archimate:ApplicationInterface>

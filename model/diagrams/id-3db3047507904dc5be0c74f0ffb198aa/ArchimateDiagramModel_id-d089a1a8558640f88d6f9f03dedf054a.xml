@@ -16,9 +16,9 @@
           href="TriggeringRelationship_id-580b0ec77b3b4340b6d56252b0b41def.xml#id-580b0ec77b3b4340b6d56252b0b41def"/>
     </sourceConnections>
     <bounds
-        x="72"
+        x="84"
         y="228"
-        width="120"
+        width="156"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
@@ -38,7 +38,7 @@
           href="FlowRelationship_id-7fdfa3aa9ec8462ab5c9e7c0f3c4171f.xml#id-7fdfa3aa9ec8462ab5c9e7c0f3c4171f"/>
     </sourceConnections>
     <bounds
-        x="240"
+        x="288"
         y="228"
         width="120"
         height="55"/>
@@ -60,9 +60,9 @@
           href="FlowRelationship_id-411e2e965eff4863a811f4ffb5e5e690.xml#id-411e2e965eff4863a811f4ffb5e5e690"/>
     </sourceConnections>
     <bounds
-        x="420"
+        x="468"
         y="228"
-        width="205"
+        width="133"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
@@ -73,9 +73,9 @@
       id="id-cf1c7fc8c45e4137a577da4f5f6543df"
       targetConnections="id-e1500e728cdf4953824a530048b6d931">
     <bounds
-        x="720"
+        x="660"
         y="228"
-        width="120"
+        width="145"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"

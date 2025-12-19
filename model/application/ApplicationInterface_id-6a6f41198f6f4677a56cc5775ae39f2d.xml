@@ -1,0 +1,7 @@
+<archimate:ApplicationInterface
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Application Interface"
+    id="id-6a6f41198f6f4677a56cc5775ae39f2d">
+  <properties
+      key="REST"/>
+</archimate:ApplicationInterface>
