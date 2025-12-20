@@ -1,0 +1,15 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Заявка для водителя"
+    id="id-edf2c1eb500c45b48c5c2ad5b38e055c">
+  <properties
+      key="Позиция резервуара"/>
+  <properties
+      key="Тип самолета"/>
+  <properties
+      key="Объем топлива"/>
+  <properties
+      key="Время прибытия"/>
+  <properties
+      key="Заправщик"/>
+</archimate:BusinessObject>
