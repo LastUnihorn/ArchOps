@@ -16,9 +16,9 @@
           href="TriggeringRelationship_id-580b0ec77b3b4340b6d56252b0b41def.xml#id-580b0ec77b3b4340b6d56252b0b41def"/>
     </sourceConnections>
     <bounds
-        x="72"
+        x="48"
         y="228"
-        width="120"
+        width="144"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"

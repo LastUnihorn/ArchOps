@@ -1,4 +1,18 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="БП Тарасова"
-    id="id-92bc8353aa6842ce9ec9a958c564718f"/>
+    id="id-92bc8353aa6842ce9ec9a958c564718f">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1dbe5266b78c45378b77abeeeef7978a">
+    <bounds
+        x="191"
+        y="233"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessEvent"
+        href="BusinessEvent_id-173c3db25fbc4841ade733172b642fd0.xml#id-173c3db25fbc4841ade733172b642fd0"/>
+  </children>
+</archimate:ArchimateDiagramModel>
