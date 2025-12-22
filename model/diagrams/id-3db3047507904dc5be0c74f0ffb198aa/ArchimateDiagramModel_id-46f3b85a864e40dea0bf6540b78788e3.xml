@@ -1,0 +1,30 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="БП Разгрузка багажа"
+    id="id-46f3b85a864e40dea0bf6540b78788e3">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a62582c6cc574b6fab9825f7fd1f410d">
+    <bounds
+        x="108"
+        y="240"
+        width="133"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessService"
+        href="BusinessService_id-140c8b572e6945589b6ea005083ed193.xml#id-140c8b572e6945589b6ea005083ed193"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-9b144a3759ad4b34a88f5b5e1a4184c6">
+    <bounds
+        x="252"
+        y="348"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_id-27a074bb3d994ff9a9856a69183a37c2.xml#id-27a074bb3d994ff9a9856a69183a37c2"/>
+  </children>
+</archimate:ArchimateDiagramModel>
