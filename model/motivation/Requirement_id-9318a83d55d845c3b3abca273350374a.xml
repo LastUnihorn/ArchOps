@@ -1,0 +1,5 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FR-1.002"
+    id="id-9318a83d55d845c3b3abca273350374a"
+    documentation="Буксировать только самолеты определенного типа"/>

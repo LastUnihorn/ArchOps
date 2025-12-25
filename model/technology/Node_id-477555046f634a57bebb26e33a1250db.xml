@@ -1,0 +1,7 @@
+<archimate:Node
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Windows Server"
+    id="id-477555046f634a57bebb26e33a1250db">
+  <profiles
+      href="folder.xml#id-5a84fbb5b55f4847bde2a5da474a6fe0"/>
+</archimate:Node>
