@@ -39,3 +39,5 @@ jobs:
           archiCsvReportEnabled: false
           archiExportModelEnabled: true
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Clen up 
+        run: rm -rf /home/dexter/actions-runner/_work/ArchOps/ArchOps
