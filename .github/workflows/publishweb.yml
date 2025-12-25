@@ -26,7 +26,7 @@ jobs:
     name: Deploy Archi report HTML to GitHub Pages
     steps:
       - name: Clen up 
-        run: rm -rf /home/dexter/actions-runner/_work/ArchOps/ArchOps > /dev/null
+        run: rm -rf /home/dexter/actions-runner/_work/ArchOps/ArchOps/* > /dev/null
      
       - name: Check out the repo
         uses: actions/checkout@v2
