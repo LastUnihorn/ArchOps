@@ -1,0 +1,60 @@
+<!-- Node -->
+<element xsi:type="archimate:Node" 
+         id="id-node" name="Основной ЦОД аэропорта"/>
+
+<!-- Devices -->
+<element xsi:type="archimate:Device" 
+         id="id-dev1" name="Веб-сервер"/>
+<element xsi:type="archimate:Device" 
+         id="id-dev2" name="Сервер БД"/>
+<element xsi:type="archimate:Device" 
+         id="id-dev3" name="Сервер интеграции"/>
+
+<!-- System Software -->
+<element xsi:type="archimate:SystemSoftware" 
+         id="id-soft1" name="Nginx"/>
+<element xsi:type="archimate:SystemSoftware" 
+         id="id-soft2" name="PostgreSQL"/>
+<element xsi:type="archimate:SystemSoftware" 
+         id="id-soft3" name="RabbitMQ"/>
+
+<!-- Data Objects -->
+<element xsi:type="archimate:DataObject" 
+         id="id-data1" name="Заявки на заправку"/>
+<element xsi:type="archimate:DataObject" 
+         id="id-data2" name="Заправщики"/>
+<element xsi:type="archimate:DataObject" 
+         id="id-data3" name="Резервуары"/>
+
+<!-- Technology Interfaces -->
+<element xsi:type="archimate:TechnologyInterface" 
+         id="id-int1" name="HTTPS API"/>
+<element xsi:type="archimate:TechnologyInterface" 
+         id="id-int2" name="Telegram Bot API"/>
+
+<!-- Relationships -->
+<relationship xsi:type="archimate:CompositionRelationship"
+              id="id-comp1" source="id-node" target="id-dev1"/>
+<relationship xsi:type="archimate:CompositionRelationship"
+              id="id-comp2" source="id-node" target="id-dev2"/>
+<relationship xsi:type="archimate:CompositionRelationship"
+              id="id-comp3" source="id-node" target="id-dev3"/>
+
+<relationship xsi:type="archimate:AssignmentRelationship"
+              id="id-assign1" source="id-dev1" target="id-soft1"/>
+<relationship xsi:type="archimate:AssignmentRelationship"
+              id="id-assign2" source="id-dev2" target="id-soft2"/>
+<relationship xsi:type="archimate:AssignmentRelationship"
+              id="id-assign3" source="id-dev3" target="id-soft3"/>
+
+<relationship xsi:type="archimate:AccessRelationship"
+              id="id-access1" source="id-soft2" target="id-data1"/>
+<relationship xsi:type="archimate:AccessRelationship"
+              id="id-access2" source="id-soft2" target="id-data2"/>
+<relationship xsi:type="archimate:AccessRelationship"
+              id="id-access3" source="id-soft2" target="id-data3"/>
+
+<relationship xsi:type="archimate:FlowRelationship"
+              id="id-flow1" source="id-dev1" target="id-int1"/>
+<relationship xsi:type="archimate:FlowRelationship"
+              id="id-flow2" source="id-dev3" target="id-int2"/>

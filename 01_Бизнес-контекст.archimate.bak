@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="01_Бизнес-контекст_zhirunov" id="id-a5ecb6b254304fa7b4c2bccdb599dae6" version="5.0.0">
+  <folder name="Strategy" id="id-3b9bdfcd0f3a49d296fb1f03ed7b82ce" type="strategy"/>
+  <folder name="Business" id="id-547fe4edcc244493be564b298c26f484" type="business">
+    <folder name="Actors" id="id-40bdeb84a13b47e4a939c4e98a232397">
+      <element xsi:type="archimate:BusinessRole" name="Представитель авиакомпании" id="id-c37de7e6feae499c80120a59c2df7f73"/>
+      <element xsi:type="archimate:BusinessRole" name="Диспетчер заправки" id="id-e2c5d8a550aa491497c5166a7b68b46e"/>
+      <element xsi:type="archimate:BusinessRole" name="Водитель заправщика" id="id-4d962ce1b14a4da78cf316d3af22f1fa"/>
+    </folder>
+    <folder name="Processes" id="id-1a67599acb6a4e33850b5309491aaa92">
+      <element xsi:type="archimate:BusinessProcess" name="Создание заявки" id="id-deb78ccc88f14b69a4486053a75a0b79"/>
+      <element xsi:type="archimate:BusinessProcess" name="Обработка заявки" id="id-5263ae3e0a21483bb26d580fe4275f63"/>
+      <element xsi:type="archimate:BusinessProcess" name="Выполнение заправки" id="id-11a252378ddb498abc642eb3be12fd04"/>
+    </folder>
+    <folder name="Objects" id="id-62b14e876d2a4fcea90da5cb29027154">
+      <element xsi:type="archimate:BusinessObject" name="Заявка на заправку" id="id-2999cfb971c4442a9b383fbb2f65cce5"/>
+      <element xsi:type="archimate:BusinessObject" name="Заправщик" id="id-d4f81b25e3074a22a66e9efc7eccf72c"/>
+      <element xsi:type="archimate:BusinessObject" name="Акт выполненных работ" id="id-97efc569d7fa4620881b057073cc7e9e"/>
+    </folder>
+  </folder>
+  <folder name="Application" id="id-1b302c7597ca4df69e64a44d7b3b0a16" type="application">
+    <folder name="Services" id="id-d6e772fc96694fec89c7f9f050ccccec">
+      <element xsi:type="archimate:ApplicationService" name="FuelRequestService" id="id-234b93d1ea814fc989a975c8e90842b6"/>
+      <element xsi:type="archimate:ApplicationService" name="ResourceAllocationService" id="id-63edb2bccfb14df0af153aa70ed9c7d9"/>
+      <element xsi:type="archimate:ApplicationService" name="NotificationService" id="id-2581c6bc82f1480d8572d02f8a8246ca"/>
+    </folder>
+    <folder name="Functions" id="id-6350c7ffc76c4d7b806c1a19a76c5747">
+      <element xsi:type="archimate:ApplicationFunction" name="Управление заявками" id="id-844d90523266451db08e3dfeb66f3b31"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Распределение ресурсов" id="id-3b7cbd0e493c4569afe8faef05c9f88f"/>
+      <element xsi:type="archimate:ApplicationFunction" name="Коммуникация с водителями" id="id-b7b4690432c8499a939caad14b7895a6"/>
+    </folder>
+    <folder name="Components" id="id-5201bf12de954262bface16a0b0a54e2">
+      <element xsi:type="archimate:ApplicationComponent" name="Web UI для диспетчера" id="id-e39c07724e42490dba741b4c34a55f31"/>
+      <element xsi:type="archimate:ApplicationComponent" name="Telegram Bot Interface" id="id-33fdd6d5f1e8499d9593f3eedf9615d9"/>
+      <element xsi:type="archimate:ApplicationComponent" name="API Gateway" id="id-b295d35f3f8c48d7a2c7085e87cba22f"/>
+    </folder>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-6a151477c89c4b41b9f86b195bacdb72" type="technology">
+    <folder name="Devices" id="id-3d2d9cc5fbc84f718f86534b0b74bd45">
+      <element xsi:type="archimate:Device" name="Веб-сервер (HA кластер)" id="id-c93d533f58964533bc299f43144c09e6"/>
+      <element xsi:type="archimate:Device" name="Сервер БД" id="id-caa19ffdfeb8410d9ec0037696b9fff5"/>
+      <element xsi:type="archimate:Device" name="Сервер интеграции" id="id-faf5f35013604b55a8e28032c2a5ffa1"/>
+    </folder>
+    <folder name="System Software" id="id-1ad030348fdf4dd78cd5814f7dc2d9c6">
+      <element xsi:type="archimate:SystemSoftware" name="PostgreSQL" id="id-0433aa56681f4c338a6ef3124c3a50ba"/>
+      <element xsi:type="archimate:SystemSoftware" name="Nginx" id="id-4cc05140583449fe8be661e5fb73f048"/>
+      <element xsi:type="archimate:SystemSoftware" name="Docker" id="id-6010ffcfeae84017b2354398d744693e"/>
+    </folder>
+    <folder name="Networks" id="id-6807b507b4c04e08ac1fc9e547177e0b">
+      <element xsi:type="archimate:CommunicationNetwork" name="ЛВС аэропорта" id="id-fd45f25669db4145b6d757f449a2f559"/>
+      <element xsi:type="archimate:CommunicationNetwork" name="VPN для мобильных устройств" id="id-45822ddf78dc42fea2a985280a0b839f"/>
+    </folder>
+  </folder>
+  <folder name="Motivation" id="id-d64b2b31b90f477f8bb08b405a0676f2" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-9ddd824d47164c62ae7e4ca4703ad304" type="implementation_migration"/>
+  <folder name="Other" id="id-cc071a40aa3d4a9ebba12848fdce32c2" type="other"/>
+  <folder name="Relations" id="id-4c82ca14173d4ad486aaff3ac435a59f" type="relations"/>
+  <folder name="Views" id="id-5c421396d67d4d44820d4feb56ad217c" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-b16e9568b0d34c1f945b1268d6c9791e"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="_READ_ME_" id="id-3429f6f3b18d4b908a3a43aec71057f4">
+      <child xsi:type="archimate:Note" id="id-e8795f08b7b141e9a861a3fe262aaf48" textAlignment="1" fillColor="#f6f6d8">
+        <bounds x="12" y="12" width="685" height="721"/>
+        <content>Properties that follow are used by the &quot;Customizable Report&quot;
+
+There are two types of properties: &quot;model wide&quot; or &quot;view only&quot;. &quot;model wide&quot; properties affect the whole report where &quot;view only&quot; properties impact only the rendering of the view having them set.
+
+
+MODEL WIDE PROPERTIES
+
+Report:Model:Hide:Business
+	Set to &quot;true&quot; to hide the list of business concepts.
+Report:Model:Hide:Application
+	Set to &quot;true&quot; to hide the list of application concepts.
+Report:Model:Hide:Technology&amp;Physical
+	Set to &quot;true&quot; to hide the list of technlology and physical concepts.
+Report:Model:Hide:Motivation
+	Set to &quot;true&quot; to hide the list of motivation extension concepts
+Report:Model:Hide:Implementation&amp;Migration
+	Set to &quot;true&quot; to hide the list of implementation &amp; migration extension concepts.
+Report:Model:Hide:Other
+	Set to &quot;true&quot; to hide the list of connectors and groupings.
+Report:Model:Hide:Relations
+	Set to &quot;true&quot; to hide the list of relations. 
+Report:Model:Hide:Views
+	Set to &quot;true&quot; to hide the list of views.
+Report:Model:Hide:ViewNumbering
+	Set to &quot;true&quot; to hide numbering at the begining of view name (regexp '^[0-9.]* ').
+Report:Model:Cover:Background
+	URL or path to an image used on the cover (595 x 842).
+	If unset a default image is used. Set it to &quot;null&quot; to disable it.
+Report:Model:Header:Background
+	URL or path to an image used on page header (595 x 50).
+	If unset a default image is used. Set it to &quot;null&quot; to disable it.
+
+
+VIEW ONLY PROPERTIES
+
+Report:View:Detailed
+	Set to &quot;true&quot; to show a detailed list of elements.
+Report:View:Hide
+	Set to &quot;true&quot; to hide the view.
+Report:View:Hide:Diagram
+	Set to &quot;true&quot; to hide the diagram.&#xD;
+Report:View:Tag&#xD;
+	Use this property to tag a view (you can use this property multiple time). Tags can then be used to create a report containing only one specific tag. To do this add &quot;#tagname&quot; to the end of the report title (case insensitive). You can make a view visible for all tag using the special tag &quot;all&quot;.</content>
+      </child>
+      <property key="Report:View:Hide" value="true"/>
+      <property key="Report:View:Hide:Diagram" value="(unused. here only to reference it once in global properties list)"/>
+      <property key="Report:View:Detailed" value="(unused. here only to reference it once in global properties list)"/>
+      <property key="Report:Model:Cover:Background" value="(unused. here only to reference it once in global properties list)"/>
+      <property key="Report:Model:Header:Background" value="(unused. here only to reference it once in global properties list)"/>
+      <property key="Report:View:Tag" value="(unused. here only to reference it once in global properties list)"/>
+    </element>
+  </folder>
+  <property key="Report:Model:Hide:Business" value="false"/>
+  <property key="Report:Model:Hide:Application" value="false"/>
+  <property key="Report:Model:Hide:Technology&amp;Physical" value="false"/>
+  <property key="Report:Model:Hide:Motivation" value="false"/>
+  <property key="Report:Model:Hide:Implementation&amp;Migration" value="false"/>
+  <property key="Report:Model:Hide:Other" value="false"/>
+  <property key="Report:Model:Hide:Relations" value="false"/>
+  <property key="Report:Model:Hide:Views" value="false"/>
+  <property key="Report:Model:Hide:ViewNumbering" value="true"/>
+</archimate:model>

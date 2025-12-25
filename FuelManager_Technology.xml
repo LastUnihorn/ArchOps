@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.1/archimate3_Diagram.xsd" identifier="id-5d375281447f4fe8a8e1d663611033f1">
+  <name xml:lang="ru">FuelManager_Technology</name>
+  <elements>
+    <element identifier="id-bb9af1310169403e9a7f2eec177a97dd" xsi:type="TechnologyInterface">
+      <name xml:lang="ru">Technology Interface</name>
+    </element>
+    <element identifier="id-68864f7904ed4e1894298c4afa81370b" xsi:type="Node">
+      <name xml:lang="ru">Node</name>
+    </element>
+    <element identifier="id-f0792f3c95794023a3505f1146edc571" xsi:type="Device">
+      <name xml:lang="ru">Device</name>
+    </element>
+    <element identifier="id-baaf04a5aae6457e9d95889e3602179c" xsi:type="SystemSoftware">
+      <name xml:lang="ru">System Software</name>
+    </element>
+    <element identifier="id-d58bd550a24848c49ca06e9b77540b25" xsi:type="TechnologyCollaboration">
+      <name xml:lang="ru">Technology Collaboration</name>
+    </element>
+    <element identifier="id-4a43dae956464ca891798a3bb68265ad" xsi:type="TechnologyInterface">
+      <name xml:lang="ru">Technology Interface</name>
+    </element>
+    <element identifier="id-6d60a5a5afd44827ad1b744818acc96d" xsi:type="CommunicationNetwork">
+      <name xml:lang="ru">Communication Network</name>
+    </element>
+    <element identifier="id-bb7fc2688a5b4adba9aba504165c22c1" xsi:type="TechnologyFunction">
+      <name xml:lang="ru">Technology Function</name>
+    </element>
+    <element identifier="id-cf63b5bf1b684c4a9ebed7d611b3b8ac" xsi:type="TechnologyProcess">
+      <name xml:lang="ru">Technology Process</name>
+    </element>
+    <element identifier="id-d48a022b56234f32b66f573a7c81e304" xsi:type="TechnologyInteraction">
+      <name xml:lang="ru">Technology Interaction</name>
+    </element>
+    <element identifier="id-a898126910834c338a517945360955c1" xsi:type="TechnologyEvent">
+      <name xml:lang="ru">Technology Event</name>
+    </element>
+    <element identifier="id-0ae1c0005c0c4ded884ce1cf5598494b" xsi:type="TechnologyService">
+      <name xml:lang="ru">Technology Service</name>
+    </element>
+    <element identifier="id-8f5a71c08e7d4b22a04eb4df22d18895" xsi:type="Artifact">
+      <name xml:lang="ru">Artifact</name>
+    </element>
+  </elements>
+  <organizations>
+    <item>
+      <label xml:lang="ru">Technology &amp; Physical</label>
+      <item identifierRef="id-bb9af1310169403e9a7f2eec177a97dd" />
+      <item identifierRef="id-68864f7904ed4e1894298c4afa81370b" />
+      <item identifierRef="id-f0792f3c95794023a3505f1146edc571" />
+      <item identifierRef="id-baaf04a5aae6457e9d95889e3602179c" />
+      <item identifierRef="id-d58bd550a24848c49ca06e9b77540b25" />
+      <item identifierRef="id-4a43dae956464ca891798a3bb68265ad" />
+      <item identifierRef="id-6d60a5a5afd44827ad1b744818acc96d" />
+      <item identifierRef="id-bb7fc2688a5b4adba9aba504165c22c1" />
+      <item identifierRef="id-cf63b5bf1b684c4a9ebed7d611b3b8ac" />
+      <item identifierRef="id-d48a022b56234f32b66f573a7c81e304" />
+      <item identifierRef="id-a898126910834c338a517945360955c1" />
+      <item identifierRef="id-0ae1c0005c0c4ded884ce1cf5598494b" />
+      <item identifierRef="id-8f5a71c08e7d4b22a04eb4df22d18895" />
+    </item>
+    <item>
+      <label xml:lang="ru">Views</label>
+      <item identifierRef="id-723c2004facc4c8bbf9c88c3f885fa74" />
+    </item>
+  </organizations>
+  <views>
+    <diagrams>
+      <view identifier="id-723c2004facc4c8bbf9c88c3f885fa74" xsi:type="Diagram">
+        <name xml:lang="ru">Default View</name>
+        <node identifier="id-847f2d0cddf0414199db21a5d483c31e" elementRef="id-bb9af1310169403e9a7f2eec177a97dd" xsi:type="Element" x="564" y="293" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-2c0118bb9b5942828d034257bf64cd4e" elementRef="id-68864f7904ed4e1894298c4afa81370b" xsi:type="Element" x="1111" y="509" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-352100b6673e4722b2eebbe59441e087" elementRef="id-f0792f3c95794023a3505f1146edc571" xsi:type="Element" x="1060" y="302" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-b3d56902d2c9414f93d58d5edf1a24da" elementRef="id-baaf04a5aae6457e9d95889e3602179c" xsi:type="Element" x="1139" y="443" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-e6a968a16ea74e35a6d85d5adae85a30" elementRef="id-d58bd550a24848c49ca06e9b77540b25" xsi:type="Element" x="1240" y="370" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-50ad21f0eb05454b82497d5789e9d244" elementRef="id-4a43dae956464ca891798a3bb68265ad" xsi:type="Element" x="1348" y="248" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-8207e35488af412d8c885a98bef2601c" elementRef="id-6d60a5a5afd44827ad1b744818acc96d" xsi:type="Element" x="1331" y="693" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-61b3f0608a254e26a1ccf23b33c4a1fd" elementRef="id-bb7fc2688a5b4adba9aba504165c22c1" xsi:type="Element" x="1366" y="557" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-4955cbf5bfba4c278109872d068e1bea" elementRef="id-cf63b5bf1b684c4a9ebed7d611b3b8ac" xsi:type="Element" x="1276" y="683" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-d630c29ecb484e85bcf431c446f26811" elementRef="id-d48a022b56234f32b66f573a7c81e304" xsi:type="Element" x="1169" y="711" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-d3cd4dd4169248a9ad8144c479c3f5a2" elementRef="id-a898126910834c338a517945360955c1" xsi:type="Element" x="1039" y="748" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-e9365163a92748c4841ce12fa7fde1e4" elementRef="id-0ae1c0005c0c4ded884ce1cf5598494b" xsi:type="Element" x="1038" y="444" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+        <node identifier="id-0729c09ed6bb4ccfab0ea95a7070075c" elementRef="id-8f5a71c08e7d4b22a04eb4df22d18895" xsi:type="Element" x="935" y="358" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" a="100" />
+            <lineColor r="92" g="92" b="92" a="100" />
+            <font name="Lucida Grande" size="12">
+              <color r="0" g="0" b="0" />
+            </font>
+          </style>
+        </node>
+      </view>
+    </diagrams>
+  </views>
+</model>

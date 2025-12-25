@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="FuelManager_Technology" id="id-5d375281447f4fe8a8e1d663611033f1" version="5.0.0">
+  <folder name="Strategy" id="id-df6e9df82b5541f1becc1bee3f833fff" type="strategy"/>
+  <folder name="Business" id="id-b1f207af20414878a0defaa685afc416" type="business"/>
+  <folder name="Application" id="id-9eec000395fc4bab8bd2f995b0909f55" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-f411b7a1c64c4e86ac846c539ab01c54" type="technology">
+    <element xsi:type="archimate:TechnologyInterface" name="Technology Interface" id="id-bb9af1310169403e9a7f2eec177a97dd"/>
+    <element xsi:type="archimate:Node" name="Node" id="id-68864f7904ed4e1894298c4afa81370b"/>
+    <element xsi:type="archimate:Device" name="Device" id="id-f0792f3c95794023a3505f1146edc571"/>
+    <element xsi:type="archimate:SystemSoftware" name="System Software" id="id-baaf04a5aae6457e9d95889e3602179c"/>
+    <element xsi:type="archimate:TechnologyCollaboration" name="Technology Collaboration" id="id-d58bd550a24848c49ca06e9b77540b25"/>
+    <element xsi:type="archimate:TechnologyInterface" name="Technology Interface" id="id-4a43dae956464ca891798a3bb68265ad"/>
+    <element xsi:type="archimate:CommunicationNetwork" name="Communication Network" id="id-6d60a5a5afd44827ad1b744818acc96d"/>
+    <element xsi:type="archimate:TechnologyFunction" name="Technology Function" id="id-bb7fc2688a5b4adba9aba504165c22c1"/>
+    <element xsi:type="archimate:TechnologyProcess" name="Technology Process" id="id-cf63b5bf1b684c4a9ebed7d611b3b8ac"/>
+    <element xsi:type="archimate:TechnologyInteraction" name="Technology Interaction" id="id-d48a022b56234f32b66f573a7c81e304"/>
+    <element xsi:type="archimate:TechnologyEvent" name="Technology Event" id="id-a898126910834c338a517945360955c1"/>
+    <element xsi:type="archimate:TechnologyService" name="Technology Service" id="id-0ae1c0005c0c4ded884ce1cf5598494b"/>
+    <element xsi:type="archimate:Artifact" name="Artifact" id="id-8f5a71c08e7d4b22a04eb4df22d18895"/>
+  </folder>
+  <folder name="Motivation" id="id-36945e338dd04f56978b885535380de3" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-74d7ec5be7a3412c9dd955709f3e64a3" type="implementation_migration"/>
+  <folder name="Other" id="id-a1bebb1603504aba98bc48e3f371537b" type="other"/>
+  <folder name="Relations" id="id-a7e0efc72886414391e417cef695127b" type="relations"/>
+  <folder name="Views" id="id-47b3b88b423f45d6a98180842226cd33" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-723c2004facc4c8bbf9c88c3f885fa74">
+      <child xsi:type="archimate:DiagramObject" id="id-847f2d0cddf0414199db21a5d483c31e" archimateElement="id-bb9af1310169403e9a7f2eec177a97dd">
+        <bounds x="564" y="293" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2c0118bb9b5942828d034257bf64cd4e" archimateElement="id-68864f7904ed4e1894298c4afa81370b">
+        <bounds x="1111" y="509" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-352100b6673e4722b2eebbe59441e087" archimateElement="id-f0792f3c95794023a3505f1146edc571">
+        <bounds x="1060" y="302" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b3d56902d2c9414f93d58d5edf1a24da" archimateElement="id-baaf04a5aae6457e9d95889e3602179c">
+        <bounds x="1139" y="443" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e6a968a16ea74e35a6d85d5adae85a30" archimateElement="id-d58bd550a24848c49ca06e9b77540b25">
+        <bounds x="1240" y="370" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-50ad21f0eb05454b82497d5789e9d244" archimateElement="id-4a43dae956464ca891798a3bb68265ad">
+        <bounds x="1348" y="248" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-8207e35488af412d8c885a98bef2601c" archimateElement="id-6d60a5a5afd44827ad1b744818acc96d">
+        <bounds x="1331" y="693" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-61b3f0608a254e26a1ccf23b33c4a1fd" archimateElement="id-bb7fc2688a5b4adba9aba504165c22c1">
+        <bounds x="1366" y="557" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-4955cbf5bfba4c278109872d068e1bea" archimateElement="id-cf63b5bf1b684c4a9ebed7d611b3b8ac">
+        <bounds x="1276" y="683" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d630c29ecb484e85bcf431c446f26811" archimateElement="id-d48a022b56234f32b66f573a7c81e304">
+        <bounds x="1169" y="711" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d3cd4dd4169248a9ad8144c479c3f5a2" archimateElement="id-a898126910834c338a517945360955c1">
+        <bounds x="1039" y="748" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-e9365163a92748c4841ce12fa7fde1e4" archimateElement="id-0ae1c0005c0c4ded884ce1cf5598494b">
+        <bounds x="1038" y="444" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0729c09ed6bb4ccfab0ea95a7070075c" archimateElement="id-8f5a71c08e7d4b22a04eb4df22d18895">
+        <bounds x="935" y="358" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
