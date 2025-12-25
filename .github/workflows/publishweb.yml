@@ -32,6 +32,7 @@ jobs:
         id: archi
         uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
         with:
+          GIT_DISCOVERY_ACROSS_FILESYSTEM: 1
           archiHtmlReportEnabled: true
           archiJasperReportEnabled: true
           archiJasperReportFormats: PDF,DOCX
