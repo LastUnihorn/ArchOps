@@ -6,9 +6,12 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    types:
+      - closed
+    branches:
+      - main # Specify the target branch (e.g., main, master, develop)
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,7 +22,7 @@ jobs:
     permissions:
       contents: write
       pages: write
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Deploy Archi report HTML to GitHub Pages
     steps:
       - name: Check out the repo
@@ -29,6 +32,7 @@ jobs:
         id: archi
         uses: WoozyMasta/archimate-ci-image@5.7.0-1.0.6
         with:
+          GIT_DISCOVERY_ACROSS_FILESYSTEM: 1
           archiHtmlReportEnabled: true
           archiJasperReportEnabled: true
           archiJasperReportFormats: PDF,DOCX
