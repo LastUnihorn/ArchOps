@@ -1,0 +1,11 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Резервуар"
+    id="id-4dcbbf6238b849d7a74ac391dce557ee">
+  <properties
+      key="ID"/>
+  <properties
+      key="текущий объём"/>
+  <properties
+      key="тип топлива"/>
+</archimate:BusinessObject>

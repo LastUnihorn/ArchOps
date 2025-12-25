@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-7e23b67728cb4ca48d4899068fcb7f7c"
+    documentation="После выполнения - формируем отчет">
+  <source
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-e41b648845504e02b5fc6908f54f861b.xml#id-e41b648845504e02b5fc6908f54f861b"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-a7d4a86830d446d7ba2d7ec8ff493426.xml#id-a7d4a86830d446d7ba2d7ec8ff493426"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="ReportingService"
+    id="id-a7d4a86830d446d7ba2d7ec8ff493426"
+    documentation="Формирование отчетов, актов, статистики"/>

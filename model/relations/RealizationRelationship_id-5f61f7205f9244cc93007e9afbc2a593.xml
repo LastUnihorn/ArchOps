@@ -1,0 +1,13 @@
+<archimate:RealizationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Релизует"
+    id="id-5f61f7205f9244cc93007e9afbc2a593"
+    documentation="Асинхронная комммуникация">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-2eb49b152a5147bdb41eec84602d04db.xml#id-2eb49b152a5147bdb41eec84602d04db"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-cba98e5a792d44c7a41263c7141f2875.xml#id-cba98e5a792d44c7a41263c7141f2875"/>
+</archimate:RealizationRelationship>

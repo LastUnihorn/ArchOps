@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="IntegrationService"
+    id="id-cba98e5a792d44c7a41263c7141f2875"
+    documentation="Интеграция с внешними системами"/>

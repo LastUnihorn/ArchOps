@@ -1,0 +1,13 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Заявка на заправку"
+    id="id-3b1d2a4f6ac94eb3bc2216f92af3971d">
+  <properties
+      key="ID"/>
+  <properties
+      key="рейс"/>
+  <properties
+      key="объём"/>
+  <properties
+      key="статус"/>
+</archimate:BusinessObject>

@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    id="id-fbedf8ae88b64efd81f16a916f5d3cec"
+    documentation="Уведомления обслуживают коммуникацию с водителем">
+  <source
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-7e31584ef2474ec49468ccc6126c49dc.xml#id-7e31584ef2474ec49468ccc6126c49dc"/>
+  <target
+      xsi:type="archimate:ApplicationService"
+      href="ApplicationService_id-e41b648845504e02b5fc6908f54f861b.xml#id-e41b648845504e02b5fc6908f54f861b"/>
+</archimate:ServingRelationship>

@@ -1,0 +1,5 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Управление заявками на заправку"
+    id="id-efbabc771ddd43b99a2dd00cab42d410"
+    documentation="Прием, обработка и отслеживание заявок"/>

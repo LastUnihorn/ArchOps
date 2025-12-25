@@ -1,0 +1,13 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Акт выполненных работ"
+    id="id-eac722127c59407aad715abe5fefa816">
+  <properties
+      key="ID заявки"/>
+  <properties
+      key="объём"/>
+  <properties
+      key="подписи"/>
+  <properties
+      key="дата"/>
+</archimate:BusinessObject>

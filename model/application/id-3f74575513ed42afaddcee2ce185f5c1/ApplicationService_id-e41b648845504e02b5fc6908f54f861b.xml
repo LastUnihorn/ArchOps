@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="DriverCommunicationService"
+    id="id-e41b648845504e02b5fc6908f54f861b"
+    documentation="Взаимодействие с водителями через Telegram"/>

@@ -1,0 +1,13 @@
+<archimate:BusinessObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Заправщик"
+    id="id-5a4c335bc1024007ba1516ac40db11f4">
+  <properties
+      key="ID"/>
+  <properties
+      key="объём"/>
+  <properties
+      key="статус"/>
+  <properties
+      key="местоположение"/>
+</archimate:BusinessObject>

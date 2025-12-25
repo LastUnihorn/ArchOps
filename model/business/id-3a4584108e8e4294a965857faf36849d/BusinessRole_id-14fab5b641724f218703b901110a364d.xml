@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Водитель заправщика"
+    id="id-14fab5b641724f218703b901110a364d"
+    documentation="Автоматизирует: [Создание заявки], [Проверка заявки]"/>

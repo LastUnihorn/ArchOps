@@ -1,0 +1,5 @@
+<archimate:ApplicationService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="FuelRequestService"
+    id="id-ec474aa0b3b74d448cd622977d680525"
+    documentation="Управление жизненным циклом заявок (CRUD, статусы)"/>

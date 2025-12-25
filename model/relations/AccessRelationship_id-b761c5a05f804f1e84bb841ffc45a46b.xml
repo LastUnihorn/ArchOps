@@ -1,0 +1,13 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="изменяет"
+    id="id-b761c5a05f804f1e84bb841ffc45a46b"
+    documentation="уменьшение объема">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-904eceb576e646e8813775da9d2acd6f.xml#id-904eceb576e646e8813775da9d2acd6f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-4dcbbf6238b849d7a74ac391dce557ee.xml#id-4dcbbf6238b849d7a74ac391dce557ee"/>
+</archimate:AccessRelationship>

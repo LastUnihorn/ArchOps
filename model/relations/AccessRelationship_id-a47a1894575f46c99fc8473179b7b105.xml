@@ -1,0 +1,13 @@
+<archimate:AccessRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="изменяет"
+    id="id-a47a1894575f46c99fc8473179b7b105"
+    documentation="уменьшение топлива">
+  <source
+      xsi:type="archimate:BusinessProcess"
+      href="BusinessProcess_id-904eceb576e646e8813775da9d2acd6f.xml#id-904eceb576e646e8813775da9d2acd6f"/>
+  <target
+      xsi:type="archimate:BusinessObject"
+      href="BusinessObject_id-5a4c335bc1024007ba1516ac40db11f4.xml#id-5a4c335bc1024007ba1516ac40db11f4"/>
+</archimate:AccessRelationship>
