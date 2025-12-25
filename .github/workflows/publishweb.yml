@@ -19,7 +19,7 @@ jobs:
     permissions:
       contents: write
       pages: write
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: Deploy Archi report HTML to GitHub Pages
     steps:
       - name: Check out the repo
