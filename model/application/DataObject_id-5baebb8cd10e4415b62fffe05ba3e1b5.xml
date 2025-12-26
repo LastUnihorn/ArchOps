@@ -1,0 +1,20 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="БД Заправщики и водители"
+    id="id-5baebb8cd10e4415b62fffe05ba3e1b5">
+  <properties
+      key="Машина"
+      value="ID"/>
+  <properties
+      key="Статус авто"
+      value="свободен, занят"/>
+  <properties
+      key="Позиция машины"
+      value="координаты"/>
+  <properties
+      key="Водитель"
+      value="ID"/>
+  <properties
+      key="Топливо"
+      value="объем"/>
+</archimate:DataObject>

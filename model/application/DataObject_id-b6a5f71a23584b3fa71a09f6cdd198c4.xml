@@ -1,0 +1,21 @@
+<archimate:DataObject
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="БД Заявки"
+    id="id-b6a5f71a23584b3fa71a09f6cdd198c4">
+  <properties
+      key="Номер"/>
+  <properties
+      key="Дата и время"/>
+  <properties
+      key="Время исполнения"/>
+  <properties
+      key="Статус"/>
+  <properties
+      key="Самолет"/>
+  <properties
+      key="Позиция"/>
+  <properties
+      key="Тип топлива"/>
+  <properties
+      key="Объем топлива"/>
+</archimate:DataObject>
