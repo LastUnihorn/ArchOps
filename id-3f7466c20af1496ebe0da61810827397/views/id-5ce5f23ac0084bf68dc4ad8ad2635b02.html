@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Use-Case Driver</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Use-Case Driver</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-application_usage"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_application_usage" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-5ce5f23ac0084bf68dc4ad8ad2635b02.png" alt="Use-Case Driver" usemap="#id-5ce5f23ac0084bf68dc4ad8ad2635b02map"/>
+			   <map name="id-5ce5f23ac0084bf68dc4ad8ad2635b02map">
+				  		<area shape="rect" coords="799,492,919,547" href="../elements/id-642da66debe04d5887b4846ad83c621a.html"  target="element">
+				  		<area shape="rect" coords="622,546,742,601" href="../elements/id-89f0c500b78e4984af2149c15ceb42ad.html"  target="element">
+				  		<area shape="rect" coords="766,325,886,380" href="../elements/id-6fbd5bd3d3034dd6ad69ddc86a31c235.html"  target="element">
+				  				<area shape="rect" coords="557,334,677,389" href="../elements/id-388af8cd48f647af92874408ad2cb7ee.html"  target="element">
+				  				<area shape="rect" coords="377,334,525,389" href="../elements/id-ed028bb749e246cd9305f3d48a743c3f.html"  target="element">
+				  				<area shape="rect" coords="209,334,329,389" href="../elements/id-32cfcf3a0a4a47a085e8ce0dd75ec02a.html"  target="element">
+				  				<area shape="rect" coords="53,334,180,389" href="../elements/id-53e6bd28c88d4b57914239e03f684d0a.html"  target="element">
+
+				  		<area shape="rect" coords="17,298,707,407" href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html"  target="element">
+				  				<area shape="rect" coords="287,517,407,572" href="../elements/id-eafbcb0a076546d6b33a035fcd60bfc4.html"  target="element">
+
+				  		<area shape="rect" coords="250,466,431,587" href="../elements/id-bc77f2fd532b4b068cc6d1fd893ec90c.html"  target="element">
+				  		<area shape="rect" coords="718,10,838,65" href="../elements/id-243a13667a5c4b41930eb31a8eb7d3d4.html"  target="element">
+				  		<area shape="rect" coords="514,178,634,233" href="../elements/id-bc0913e019964728a4c22df28ff33226.html"  target="element">
+				  		<area shape="rect" coords="430,30,445,45" href="../elements/id-d02a013b986e475d936764a0236fd61c.html"  target="element">
+				  		<area shape="rect" coords="514,94,634,149" href="../elements/id-9ece34d40e04402fa05b809c282575fb.html"  target="element">
+				  		<area shape="rect" coords="514,10,634,65" href="../elements/id-ff243929e8f540b0904ef133af9f13f3.html"  target="element">
+				  		<area shape="rect" coords="225,118,345,173" href="../elements/id-0bc96a21b6294aac9ec33e7e7fe0b190.html"  target="element">
+				  		<area shape="rect" coords="212,10,357,65" href="../elements/id-0d28b794b7594af4a53928685c74b4db.html"  target="element">
+				  		<area shape="rect" coords="10,10,143,65" href="../elements/id-b1bb496d407941ddbf9956ef31eb03a8.html"  target="element">
+				  		<area shape="rect" coords="17,118,137,173" href="../elements/id-c951b6aa3d7b4100a3f6619418c39e06.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-c951b6aa3d7b4100a3f6619418c39e06.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; </a> </td>
+											    <td> <a href="../elements/id-c951b6aa3d7b4100a3f6619418c39e06.html" target="element" class="i18n-elementtype-BusinessActor">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-b1bb496d407941ddbf9956ef31eb03a8.html" target="element"> &#1057;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; &#1086; &#1085;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1086;&#1084; &#1079;&#1072;&#1082;&#1072;&#1079;&#1077; </a> </td>
+											    <td> <a href="../elements/id-b1bb496d407941ddbf9956ef31eb03a8.html" target="element" class="i18n-elementtype-BusinessEvent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0d28b794b7594af4a53928685c74b4db.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1077;&#1076;&#1077;&#1090; &#1085;&#1072; &#1090;&#1086;&#1095;&#1082;&#1091; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+											    <td> <a href="../elements/id-0d28b794b7594af4a53928685c74b4db.html" target="element" class="i18n-elementtype-BusinessProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-0bc96a21b6294aac9ec33e7e7fe0b190.html" target="element"> &#1055;&#1086;&#1079;&#1080;&#1094;&#1080;&#1103; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+											    <td> <a href="../elements/id-0bc96a21b6294aac9ec33e7e7fe0b190.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-ff243929e8f540b0904ef133af9f13f3.html" target="element"> &#1047;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072; &#1089;&#1072;&#1084;&#1086;&#1083;&#1077;&#1090;&#1072; </a> </td>
+											    <td> <a href="../elements/id-ff243929e8f540b0904ef133af9f13f3.html" target="element" class="i18n-elementtype-BusinessProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-9ece34d40e04402fa05b809c282575fb.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1085;&#1072; &#1084;&#1077;&#1089;&#1090;&#1077; </a> </td>
+											    <td> <a href="../elements/id-9ece34d40e04402fa05b809c282575fb.html" target="element" class="i18n-elementtype-BusinessEvent">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-d02a013b986e475d936764a0236fd61c.html" target="element"> Junction </a> </td>
+											    <td> <a href="../elements/id-d02a013b986e475d936764a0236fd61c.html" target="element" class="i18n-elementtype-Junction">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-bc0913e019964728a4c22df28ff33226.html" target="element"> &#1057;&#1090;&#1072;&#1090;&#1091;&#1089; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+											    <td> <a href="../elements/id-bc0913e019964728a4c22df28ff33226.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-243a13667a5c4b41930eb31a8eb7d3d4.html" target="element"> &#1054;&#1090;&#1095;&#1077;&#1090; &#1086; &#1079;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1077; </a> </td>
+											    <td> <a href="../elements/id-243a13667a5c4b41930eb31a8eb7d3d4.html" target="element" class="i18n-elementtype-BusinessProcess">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-bc77f2fd532b4b068cc6d1fd893ec90c.html" target="element"> &#1063;&#1072;&#1090;-&#1073;&#1086;&#1090; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+											    <td> <a href="../elements/id-bc77f2fd532b4b068cc6d1fd893ec90c.html" target="element" class="i18n-elementtype-ApplicationComponent">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-eafbcb0a076546d6b33a035fcd60bfc4.html" target="element"> Application Function </a> </td>
+													    <td> <a href="../elements/id-eafbcb0a076546d6b33a035fcd60bfc4.html" target="element" class="i18n-elementtype-ApplicationFunction">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+											    <td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element" class="i18n-elementtype-ApplicationService">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-53e6bd28c88d4b57914239e03f684d0a.html" target="element"> &#1053;&#1086;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1086; &#1079;&#1072;&#1082;&#1072;&#1079;&#1077; </a> </td>
+													    <td> <a href="../elements/id-53e6bd28c88d4b57914239e03f684d0a.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-32cfcf3a0a4a47a085e8ce0dd75ec02a.html" target="element"> &#1060;&#1080;&#1082;&#1089;&#1072;&#1094;&#1080;&#1103; &#1101;&#1090;&#1072;&#1087;&#1086;&#1074; &#1074;&#1099;&#1087;&#1086;&#1083;&#1085;&#1077;&#1085;&#1080;&#1103; </a> </td>
+													    <td> <a href="../elements/id-32cfcf3a0a4a47a085e8ce0dd75ec02a.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ed028bb749e246cd9305f3d48a743c3f.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1076;&#1077;&#1090;&#1072;&#1083;&#1077;&#1081; &#1079;&#1072;&#1082;&#1072;&#1079;&#1072; </a> </td>
+													    <td> <a href="../elements/id-ed028bb749e246cd9305f3d48a743c3f.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-388af8cd48f647af92874408ad2cb7ee.html" target="element"> &#1054;&#1073;&#1088;&#1072;&#1073;&#1086;&#1090;&#1082;&#1072; &#1074;&#1085;&#1077;&#1096;&#1090;&#1072;&#1090;&#1085;&#1099;&#1093; &#1089;&#1080;&#1090;&#1091;&#1072;&#1094;&#1080;&#1081; </a> </td>
+													    <td> <a href="../elements/id-388af8cd48f647af92874408ad2cb7ee.html" target="element" class="i18n-elementtype-ApplicationService">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-6fbd5bd3d3034dd6ad69ddc86a31c235.html" target="element"> &#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1095;&#1072;&#1090;-&#1073;&#1086;&#1090;&#1072; </a> </td>
+											    <td> <a href="../elements/id-6fbd5bd3d3034dd6ad69ddc86a31c235.html" target="element" class="i18n-elementtype-ApplicationInterface">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-89f0c500b78e4984af2149c15ceb42ad.html" target="element"> GPS &#1082;&#1086;&#1086;&#1088;&#1076;&#1080;&#1085;&#1072;&#1090;&#1099; </a> </td>
+											    <td> <a href="../elements/id-89f0c500b78e4984af2149c15ceb42ad.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-642da66debe04d5887b4846ad83c621a.html" target="element"> Status </a> </td>
+											    <td> <a href="../elements/id-642da66debe04d5887b4846ad83c621a.html" target="element" class="i18n-elementtype-DataObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-3361809adc5d44bf88127779ec046418.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3361809adc5d44bf88127779ec046418.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-c951b6aa3d7b4100a3f6619418c39e06.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; </a> </td>
+																		<td> <a href="../elements/id-b1bb496d407941ddbf9956ef31eb03a8.html" target="element"> &#1057;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; &#1086; &#1085;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1086;&#1084; &#1079;&#1072;&#1082;&#1072;&#1079;&#1077; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-e953a38242444a2dad135b464ca9a0db.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-e953a38242444a2dad135b464ca9a0db.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-b1bb496d407941ddbf9956ef31eb03a8.html" target="element"> &#1057;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; &#1086; &#1085;&#1072;&#1079;&#1085;&#1072;&#1095;&#1077;&#1085;&#1085;&#1086;&#1084; &#1079;&#1072;&#1082;&#1072;&#1079;&#1077; </a> </td>
+																		<td> <a href="../elements/id-0d28b794b7594af4a53928685c74b4db.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1077;&#1076;&#1077;&#1090; &#1085;&#1072; &#1090;&#1086;&#1095;&#1082;&#1091; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-1efd5aa9e84449239c01ad8c3a315995.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-1efd5aa9e84449239c01ad8c3a315995.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d28b794b7594af4a53928685c74b4db.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1077;&#1076;&#1077;&#1090; &#1085;&#1072; &#1090;&#1086;&#1095;&#1082;&#1091; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+																		<td> <a href="../elements/id-0bc96a21b6294aac9ec33e7e7fe0b190.html" target="element"> &#1055;&#1086;&#1079;&#1080;&#1094;&#1080;&#1103; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-68f9aed1fc0649babf054085ac2bf2bf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-68f9aed1fc0649babf054085ac2bf2bf.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-0d28b794b7594af4a53928685c74b4db.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1077;&#1076;&#1077;&#1090; &#1085;&#1072; &#1090;&#1086;&#1095;&#1082;&#1091; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+																		<td> <a href="../elements/id-d02a013b986e475d936764a0236fd61c.html" target="element"> Junction </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-951483078bdb4ab3ae0e2a5f74e8e757.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-951483078bdb4ab3ae0e2a5f74e8e757.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-ff243929e8f540b0904ef133af9f13f3.html" target="element"> &#1047;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072; &#1089;&#1072;&#1084;&#1086;&#1083;&#1077;&#1090;&#1072; </a> </td>
+																		<td> <a href="../elements/id-243a13667a5c4b41930eb31a8eb7d3d4.html" target="element"> &#1054;&#1090;&#1095;&#1077;&#1090; &#1086; &#1079;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1077; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-9ffca78cf3bb4152a2b45dcfa876aed5.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-9ffca78cf3bb4152a2b45dcfa876aed5.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-9ece34d40e04402fa05b809c282575fb.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1085;&#1072; &#1084;&#1077;&#1089;&#1090;&#1077; </a> </td>
+																		<td> <a href="../elements/id-bc0913e019964728a4c22df28ff33226.html" target="element"> &#1057;&#1090;&#1072;&#1090;&#1091;&#1089; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-3e20c1ec4c6a4bbeaec2ea786a526a4c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-3e20c1ec4c6a4bbeaec2ea786a526a4c.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d02a013b986e475d936764a0236fd61c.html" target="element"> Junction </a> </td>
+																		<td> <a href="../elements/id-ff243929e8f540b0904ef133af9f13f3.html" target="element"> &#1047;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1072; &#1089;&#1072;&#1084;&#1086;&#1083;&#1077;&#1090;&#1072; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-246c4b26850044d39b22d640216b508a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-246c4b26850044d39b22d640216b508a.html" target="element" class="i18n-elementtype-TriggeringRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-d02a013b986e475d936764a0236fd61c.html" target="element"> Junction </a> </td>
+																		<td> <a href="../elements/id-9ece34d40e04402fa05b809c282575fb.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; &#1085;&#1072; &#1084;&#1077;&#1089;&#1090;&#1077; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-fbc7426deb3b4e6c9973eac09d89161b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-fbc7426deb3b4e6c9973eac09d89161b.html" target="element" class="i18n-elementtype-AccessRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-243a13667a5c4b41930eb31a8eb7d3d4.html" target="element"> &#1054;&#1090;&#1095;&#1077;&#1090; &#1086; &#1079;&#1072;&#1087;&#1088;&#1072;&#1074;&#1082;&#1077; </a> </td>
+																		<td> <a href="../elements/id-bc0913e019964728a4c22df28ff33226.html" target="element"> &#1057;&#1090;&#1072;&#1090;&#1091;&#1089; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-beb0ee954b8d48f18776c33019ae8c3a.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-beb0ee954b8d48f18776c33019ae8c3a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bc77f2fd532b4b068cc6d1fd893ec90c.html" target="element"> &#1063;&#1072;&#1090;-&#1073;&#1086;&#1090; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-53a6d7b107d74852a9fc257518704236.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-53a6d7b107d74852a9fc257518704236.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-bc77f2fd532b4b068cc6d1fd893ec90c.html" target="element"> &#1063;&#1072;&#1090;-&#1073;&#1086;&#1090; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+																		<td> <a href="../elements/id-eafbcb0a076546d6b33a035fcd60bfc4.html" target="element"> Application Function </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-1114f7c159044d1089f62f2508523f4c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-1114f7c159044d1089f62f2508523f4c.html" target="element" class="i18n-elementtype-AccessRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-eafbcb0a076546d6b33a035fcd60bfc4.html" target="element"> Application Function </a> </td>
+																				<td> <a href="../elements/id-642da66debe04d5887b4846ad83c621a.html" target="element"> Status </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-c86baaab695e4bc28a1a66a0bf2d553e.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c86baaab695e4bc28a1a66a0bf2d553e.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																		<td> <a href="../elements/id-53e6bd28c88d4b57914239e03f684d0a.html" target="element"> &#1053;&#1086;&#1090;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1086; &#1079;&#1072;&#1082;&#1072;&#1079;&#1077; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-35e153ce9cda4db992914c314ea38ad7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-35e153ce9cda4db992914c314ea38ad7.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																		<td> <a href="../elements/id-32cfcf3a0a4a47a085e8ce0dd75ec02a.html" target="element"> &#1060;&#1080;&#1082;&#1089;&#1072;&#1094;&#1080;&#1103; &#1101;&#1090;&#1072;&#1087;&#1086;&#1074; &#1074;&#1099;&#1087;&#1086;&#1083;&#1085;&#1077;&#1085;&#1080;&#1103; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-785e508548c44c10bf3b84fed9e98548.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-785e508548c44c10bf3b84fed9e98548.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																		<td> <a href="../elements/id-ed028bb749e246cd9305f3d48a743c3f.html" target="element"> &#1055;&#1088;&#1077;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1076;&#1077;&#1090;&#1072;&#1083;&#1077;&#1081; &#1079;&#1072;&#1082;&#1072;&#1079;&#1072; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-191b2adeeddf4dac9a283b4d2c48039b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-191b2adeeddf4dac9a283b4d2c48039b.html" target="element" class="i18n-elementtype-AggregationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																		<td> <a href="../elements/id-388af8cd48f647af92874408ad2cb7ee.html" target="element"> &#1054;&#1073;&#1088;&#1072;&#1073;&#1086;&#1090;&#1082;&#1072; &#1074;&#1085;&#1077;&#1096;&#1090;&#1072;&#1090;&#1085;&#1099;&#1093; &#1089;&#1080;&#1090;&#1091;&#1072;&#1094;&#1080;&#1081; </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d71815d99a574a339bc2490521923307.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-d71815d99a574a339bc2490521923307.html" target="element" class="i18n-elementtype-ServingRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																		<td> <a href="../elements/id-c951b6aa3d7b4100a3f6619418c39e06.html" target="element"> &#1042;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100; </a> </td>
+																	</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-823fb4bb64fb4aabb3233185d2722ab2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-823fb4bb64fb4aabb3233185d2722ab2.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6fbd5bd3d3034dd6ad69ddc86a31c235.html" target="element"> &#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1095;&#1072;&#1090;-&#1073;&#1086;&#1090;&#1072; </a> </td>
+																		<td> <a href="../elements/id-6855dcbfb8774bec97d9cde3fbbc3d35.html" target="element"> &#1050;&#1086;&#1084;&#1084;&#1091;&#1085;&#1080;&#1082;&#1072;&#1094;&#1080;&#1103; &#1089; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1077;&#1084; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-f2964c91804e4db38bbd79c5221626b0.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-f2964c91804e4db38bbd79c5221626b0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-89f0c500b78e4984af2149c15ceb42ad.html" target="element"> GPS &#1082;&#1086;&#1086;&#1088;&#1076;&#1080;&#1085;&#1072;&#1090;&#1099; </a> </td>
+																		<td> <a href="../elements/id-0bc96a21b6294aac9ec33e7e7fe0b190.html" target="element"> &#1055;&#1086;&#1079;&#1080;&#1094;&#1080;&#1103; &#1073;&#1091;&#1082;&#1089;&#1080;&#1088;&#1086;&#1074;&#1082;&#1080; </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-086c363e16974a00b11690773c0aacb4.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-086c363e16974a00b11690773c0aacb4.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-642da66debe04d5887b4846ad83c621a.html" target="element"> Status </a> </td>
+																		<td> <a href="../elements/id-bc0913e019964728a4c22df28ff33226.html" target="element"> &#1057;&#1090;&#1072;&#1090;&#1091;&#1089; &#1086;&#1087;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1103; </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
