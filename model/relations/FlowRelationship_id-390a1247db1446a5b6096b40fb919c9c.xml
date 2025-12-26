@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Бензовоз"
+    id="id-390a1247db1446a5b6096b40fb919c9c">
+  <source
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_id-8c53d9d7269b41588b452af7f693259e.xml#id-8c53d9d7269b41588b452af7f693259e"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-c72d8dc887094343a6beb169481eef42.xml#id-c72d8dc887094343a6beb169481eef42"/>
+</archimate:FlowRelationship>

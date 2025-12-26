@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Статус заявки"
+    id="id-138a235f33064b34963a04b08d7ff2ad">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-bc77f2fd532b4b068cc6d1fd893ec90c.xml#id-bc77f2fd532b4b068cc6d1fd893ec90c"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-c72d8dc887094343a6beb169481eef42.xml#id-c72d8dc887094343a6beb169481eef42"/>
+</archimate:FlowRelationship>
