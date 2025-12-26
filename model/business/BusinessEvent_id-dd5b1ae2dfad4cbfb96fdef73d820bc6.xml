@@ -1,0 +1,13 @@
+<archimate:BusinessEvent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Сообщение о заявке"
+    id="id-dd5b1ae2dfad4cbfb96fdef73d820bc6">
+  <properties
+      key="Время прибытия"/>
+  <properties
+      key="Объем топлива"/>
+  <properties
+      key="Тип самолета"/>
+  <properties
+      key="Позиция стоянки"/>
+</archimate:BusinessEvent>
