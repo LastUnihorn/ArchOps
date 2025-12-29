@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="recieve events"
+    id="id-cf9d855cfeb54eeca4c12d2644c76605">
+  <source
+      xsi:type="archimate:Device"
+      href="Device_id-2e641c143bc4418fac7eb5d0d6613141.xml#id-2e641c143bc4418fac7eb5d0d6613141"/>
+  <target
+      xsi:type="archimate:Device"
+      href="Device_id-1dff0fc26739401dba79ae0129891afb.xml#id-1dff0fc26739401dba79ae0129891afb"/>
+</archimate:FlowRelationship>

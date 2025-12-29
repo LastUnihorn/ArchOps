@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="notifications"
+    id="id-fceec5c4f2e14ef4a8df222f25a09ffa">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-5817ee0a07f24a3ebe2dd526b5007be7.xml#id-5817ee0a07f24a3ebe2dd526b5007be7"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-3e052fd7b29f4e49a318163dcb11dd26.xml#id-3e052fd7b29f4e49a318163dcb11dd26"/>
+</archimate:ServingRelationship>
