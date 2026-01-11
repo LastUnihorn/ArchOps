@@ -1,0 +1,12 @@
+<archimate:AssociationRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Обеспечивает скорость и цену"
+    id="id-d3b096578dbd4eca9f2bd6cb8e5c6673">
+  <source
+      xsi:type="archimate:CourseOfAction"
+      href="CourseOfAction_id-14bd1a9b1ef44f05a96e682dbae49ead.xml#id-14bd1a9b1ef44f05a96e682dbae49ead"/>
+  <target
+      xsi:type="archimate:Capability"
+      href="Capability_id-5abd3a9b99b94da4b58713bc9f830425.xml#id-5abd3a9b99b94da4b58713bc9f830425"/>
+</archimate:AssociationRelationship>
